@@ -18,6 +18,10 @@ ul {
   list-style: none;
 }
 
+fieldset {
+  margin: 0;
+}
+
 a {
   color: currentColor;
   text-decoration: none;

@@ -1,0 +1,17 @@
+.form {
+  width: 210px;
+}
+
+.form > label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+
+fieldset {
+  margin-bottom: 5px;
+}
+
+.submit-btn {
+  width: 100%;
+}
