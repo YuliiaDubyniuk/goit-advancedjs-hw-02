@@ -6,8 +6,15 @@
 */
 /* Common styles */
 @import url('./reset.css');
-@import url('./base.css');
 @import url('./container.css');
 
 @import url('./1-timer.css');
-@import url('./2-snackbar.css')
+@import url('./2-snackbar.css');
+
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+};

@@ -1,3 +1,9 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 h1,
 h2,
 h3,
@@ -35,4 +41,15 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+input,
+button,
+textarea,
+select {
+  font-family: 'Montserrat', sans-serif;
+  font-feature-settings: inherit;
+  font-variation-settings: inherit;
+  font-size: 100%;
+  line-height: 1.15;
 }
